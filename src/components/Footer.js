@@ -59,19 +59,19 @@ const Footer = () => {
                         </div>
                         <div className="footer__content">
                             <p>
-                                Contact to order : <strong>0123456789</strong>
+                                Contact to order : 
                             </p>
                             <p>
-                                Order problems : <strong>0123456789</strong>
+                                Order problems : 
                             </p>
                             <p>
-                                Recomments, complaints : <strong>0123456789</strong>
+                                Recomments, complaints : 
                             </p>
                         </div>
                     </div>
                     <div>
                         <div className="footer__title">
-                            About Ha Ma
+                            About Us
                         </div>
                         <div className="footer__content">
                             {
@@ -108,7 +108,7 @@ const Footer = () => {
                             </Link>
                         </p>
                         <p>
-                            Aim to bring joy and relieve stress to everyone.
+                            
                         </p>
                         <br />
                         <div>

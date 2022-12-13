@@ -114,7 +114,7 @@ const Catalog = () => {
                     </div>      
                     <div className="catalog__filter__widget">
                         <div className="catalog__filter__widget__title">
-                            product portfolio
+                            Artist
                         </div>
                          <div className="catalog__filter__widget__content">
                             {
@@ -132,25 +132,7 @@ const Catalog = () => {
                         </div>
                     </div>
 
-                    <div className="catalog__filter__widget">
-                        <div className="catalog__filter__widget__title">
-                            Product dimensions and quantity
-                        </div>
-                         <div className="catalog__filter__widget__content">
-                            {
-                                size.map((item, index) => (
-                                    <div key={index}
-                                        className="catalog__filter__widget__content__item">
-                                        <CheckBox
-                                            label={item.display}
-                                            onChange={(input) => filterSelect("SIZE", input.checked, item)}
-                                            checked={filter.size.includes(item.size)}
-                                        />
-                                    </div>
-                                ))
-                            }
-                        </div>
-                    </div>
+
                     
                     <div className="catalog__filter__widget">
                         <div className="catalog__filter__widget__content">

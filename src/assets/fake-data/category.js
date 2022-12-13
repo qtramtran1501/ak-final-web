@@ -1,23 +1,23 @@
 const category = [
     {
-        display: "Landscape picture",
-        categorySlug: "landscape-picture"
+        display: "BTS",
+        categorySlug: "BTS"
     },
     {
-        display: "Water Color",
-        categorySlug: "water-color"
+        display: "TEMPEST",
+        categorySlug: "TEMPEST"
     },
     {
-        display: "Paper watercolor",
-        categorySlug: "paper-watercolor"
+        display: "ITZY",
+        categorySlug: "ITZY"
     },
     {
-        display: "Tray color",
-        categorySlug: "tray-color"
+        display: "TWICE",
+        categorySlug: "TWICE"
     },
     {
-        display: "Paintbrush color",
-        categorySlug: "paintbrush-color"
+        display: "(G)I-DLE",
+        categorySlug: "(G)I-DLE"
     }    
 ]
 

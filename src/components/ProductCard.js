@@ -38,7 +38,7 @@ const ProductCard = props => {
                     style={{ border: '1px solid', borderRadius: '5px' }}
                     onClick={() => dispatch(set(props.slug))}
                 >
-                    Add to cart
+                    MUA HÀNG
                 </Button>
             </div>
         </div>

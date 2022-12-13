@@ -121,7 +121,7 @@ const ProductView = props => {
                 </div>
                 <div className={`product-description ${descriptionExpand ? 'expand' : ''}`}>
                     <div className="product-description__title">
-                        Product details
+                        Thông tin sản phẩm sản phẩm
                     </div>
                     <div className="product-description__content" dangerouslySetInnerHTML={{__html:product.description}}></div>
                     <div className="product-description__toggle">
@@ -140,24 +140,10 @@ const ProductView = props => {
                         {numberWithCommas(product.price)}
                     </span>
                 </div>
-                <div className="product__info__item">
-                    <div className="product__info__item__title">
-                        Picture frame color or Box color
 
-                    </div>
-                    <div className="product__info__item__list">
-                        {
-                            product.colors.map((item, index) => (
-                                <div key={index} className={`product__info__item__list__item ${color === item ? 'active' : ''}`} onClick={() => setColor(item)}>
-                                    <div className={`circle bg-${item}`}></div>
-                                </div>
-                            ))
-                       } 
-                    </div>
-                </div>
                 <div className="product__info__item">
                     <div className="product__info__item__title">
-                        Size
+                        VERSION
                     </div>
                     <div className="product__info__item__list">
                         {

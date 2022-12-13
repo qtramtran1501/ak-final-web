@@ -15,7 +15,7 @@ import user_menu from '../../assets/JsonData/user_menus.json'
 import notifications from '../../assets/JsonData/notification.json'
 
 const curr_user = {
-    display_name: 'Tu Linh',
+    display_name: 'AKTEAM',
     image: user_image
 }
 

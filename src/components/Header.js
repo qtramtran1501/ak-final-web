@@ -8,18 +8,12 @@ const mainNav = [
         display: "HOME",
         path: "/"
     },
-    {
-        display: "COURSES",
-        path: "/courses"
-    },
+
     {
         display: "PRODUCTS",
         path: "/catalog"
     },
-     {
-        display: "STORIES",
-        path: "/stories"
-    },
+
     {
         display: "CONTACT",
         path: "/contact"

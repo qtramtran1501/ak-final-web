@@ -65,7 +65,7 @@ export class Contact extends Component{
                         <span>
                             <i className="fas fa-envelope"></i>
                         </span> &nbsp;&nbsp;&nbsp;
-                        coffelake.webtech@gmail.com
+                        akteam@gmail.com
                     </div>
                     <br/>
                     <br/>
