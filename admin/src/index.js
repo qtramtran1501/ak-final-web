@@ -19,7 +19,7 @@ const store = createStore(
   rootReducer
 )
 
-document.title = 'Admin Page | Ha Ma'
+document.title = 'Admin Page | Bandina'
 
 ReactDOM.render(
   <Provider store={store}>

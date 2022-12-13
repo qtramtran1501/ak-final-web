@@ -47,7 +47,8 @@ const Post = () => {
                             <b>Opening: </b> 01/01/2022
                         </p>
                         <p className="postDesc"> 
-                            <b>Instructor: </b> Ha Ma
+                            <b>Instructor: </b> Bandina
+                        
                         </p>
                     </div>
                     
